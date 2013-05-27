@@ -23,7 +23,7 @@
 #define ALIEN_INITIAL_V			50
 #define ALIEN_STEP_DOWN			33
 #define ALIEN_SCREEN_GAP		30
-#define ALIEN_SPEEDUP			1.33
+#define ALIEN_SPEEDUP			1.1
 
 #define EXPLOSION_DURATION		2.5
 

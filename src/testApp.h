@@ -11,46 +11,46 @@
 
 
 
-class testApp : public ofBaseApp{
+class testApp : public ofBaseApp {
 
-	enum gameState{PLAYING, START_SCREEN, END_LEVEL};
+	enum gameState {PLAYING, START_SCREEN, END_LEVEL};
 
-	public:
+public:
 
-		void setup();
-		void update();
-		void draw();
-		void exit();
-		
-		void keyPressed(int key);
-		void keyReleased(int key);
-		void mouseMoved(int x, int y);
-		void mouseDragged(int x, int y, int button);
-		void mousePressed(int x, int y, int button);
-		void mouseReleased(int x, int y, int button);
+	void setup();
+	void update();
+	void draw();
+	void exit();
 
-		void nextLevel();
-		void gameOver();
-		float gameOverTimer;
+	void keyPressed(int key);
+	void keyReleased(int key);
+	void mouseMoved(int x, int y);
+	void mouseDragged(int x, int y, int button);
+	void mousePressed(int x, int y, int button);
+	void mouseReleased(int x, int y, int button);
 
-		Explosion e;
+	void nextLevel();
+	void gameOver();
+	float gameOverTimer;
+
+	Explosion e;
 
 
-		gameState state;
-		int currentLevel;
-	
-		ofImage logo;
-		ofImage startButton;
+	gameState state;
+	int currentLevel;
 
-		ofSoundPlayer startup, launch, explode, empty;
+	ofImage logo;
+	ofImage startButton;
 
-		ofTrueTypeFont font;	
+	ofSoundPlayer startup, launch, explode, empty;
 
-		///////////
-		
-		ofxRemoteCameraClient	remoteCam;
-		LaserPointer			laser;
-		AlienCluster			aliens;
+	ofTrueTypeFont font;
+
+	///////////
+
+	ofxRemoteCameraClient remoteCam;
+	LaserPointer laser;
+	AlienCluster aliens;
 
 
 	//GRAFFITI
@@ -70,5 +70,4 @@ class testApp : public ofBaseApp{
 	float spawnOffset;
 	float smokeLife;
 	float gravity;
-
 };
