@@ -1,0 +1,14 @@
+ofxNetwork
+ofxOpenCv
+ofxOsc
+ofxXmlSettings
+ofxBlobTracker
+ofxColorGradient
+ofxExplosion
+ofxLaserPointer
+ofxMediaDB
+ofxMSAInteractiveObject
+ofxRemoteCamera
+ofxSimpleGuiToo
+ofxTextInputField
+ofxTimeMeasurements

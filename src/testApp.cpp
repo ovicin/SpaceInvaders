@@ -10,19 +10,19 @@ void testApp::setup(){
 
 	ofSetCircleResolution(33);
 	ofDisableArbTex();
-
+/*
 	startup.loadSound("start.wav");
 	launch.loadSound("launch.wav");
 	explode.loadSound("explode.wav");
 	empty.loadSound("empty.wav");
-	
+*/	
 	logo.loadImage("logo.png");
 	logo.getTextureReference().setTextureMinMagFilter(GL_NEAREST, GL_NEAREST);
 	startButton.loadImage("startButton.png");
 	startButton.getTextureReference().setTextureMinMagFilter(GL_NEAREST, GL_NEAREST);
 
 
-	font.loadFont("standard 07_55", 24, false, false);
+	font.loadFont("standard-07-55.ttf", 24, false, false);
 
 
 	// game ////
